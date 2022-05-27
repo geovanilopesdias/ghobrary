@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+/* General */
+body {background-color: #23352c; font-family: 'Varela Round', monospace; text-align: center;}
+div#top-layer {width: 1000px; margin: 5px auto 5px auto; background-color: #dad7cd; box-shadow: 2px 2px 4px black; position: relative;}
+div#background {width: 1300px; margin: 5px auto 5px auto; background-color: #344e41;}
+
+/* Header */
+header {
+	color: #a3b18a; text-align: center; text-align: left;
+	width: 760px; background-color: #3a5a40; padding: 20px 5px 40px 5px; margin: 5px auto 5px auto;
+}
+header h1{font-size: 60px; margin: 0px auto 0px 200px; text-shadow: 2px 2px 4px black;}
+header h2{font-size: 20px; margin: 0px auto 0px 200px; text-shadow: 1px 1px 2px black;}
+header img{width: 20%; height: 20%; position: absolute; padding: 0px; margin-left: 0px;}
+
+/* Form box */
+nav#sign-in-box h1 {font-family: 'Fredoka One'; font-size: 30px; color: #a3b18a; text-shadow: 2px 2px 4px black; margin: 50px auto 10px auto;}
+form {
+	font-family: 'Fredoka One', monospace; font-size: 20px; color: #344e41; text-shadow: 1px 1px 2px black; text-align: left;
+	border-radius: 10px; background-color: #588157; box-shadow: 3px 3px 5px black; 
+	width: 360px; padding: 10px; position: relative; margin: 10px auto 30px auto;
+	transition: color 1s;
+}
+legend {font-size: 14px; color: white; text-shadow: 2px 2px 4px black;}
+input {padding:5px; margin-top: 5px;}
+input[type=submit] {
+	font-family: 'Fredoka One', monospace; font-size: 15px; color: #dad7cd; cursor: pointer;
+	padding: 5px 15px; background:#23352c; border-radius: 10px; margin: 0px auto 0px auto;
+}
+
+/* Footer*/
+footer {text-align: center; border-top: 3px double #a3b18a; display: block; padding: 10px; margin-top: 5px; margin-left: auto; margin-right: auto;}
+footer h1{font-family: 'Fredoka One', sans-serif; color: #3a5a40); font-size: 20pt; margin-bottom: 0px;}
+footer p{font-family: 'Covered By Your Grace', sans-serif; font-size: 5pt; margin-top: 0px;}

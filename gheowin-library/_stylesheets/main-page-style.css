@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+/* General */
+body {background-color: #23352c; font-family: 'Varela Round', monospace; text-align: center;}
+
+
+/* Header */
+header {
+	color: #a3b18a; text-align: center;  
+	width: 760px; background-color: #3a5a40; padding: 10px; margin: 5px auto 5px auto;
+}
+header h1{font-size: 60px; margin-top: 0px; margin-bottom: 0px; text-shadow: 2px 2px 4px black;}
+header h2{font-size: 20px; margin-top: 0px; text-shadow: 1px 1px 2px black;}
+header img{width: 30%; height: 30%; padding: 0px; margin: 0px;}
+
+div#top-layer {width: 1000px; margin: 5px auto 5px auto; background-color: #dad7cd; box-shadow: 2px 2px 4px black; position: relative;}
+div#background {width: 1300px; margin: 5px auto 5px auto; background-color: #344e41;}
+
+/* Buttons */
+nav.access p {font-family: 'Fredoka One'; font-size: 50px; text-decoration: bolder; margin: 50px auto 10px 50px;}
+div.button {
+	font-family: 'Fredoka One', monospace; font-size: 25px; color: #344e41; text-shadow: 1px 1px 2px black; text-align: center;
+	border-radius: 10px; background-color: #588157; box-shadow: 3px 3px 5px black; 
+	width: 360px; padding: 5px; position: relative; margin: 10px auto 30px auto;
+	transition: color 1s;
+}
+div.button a:link{color: #3a5a40; text-decoration: none;}
+div.button a:visited{color: #3a5a40; text-decoration: underline;}
+div.button a:hover{color: #a3b18a; text-decoration: bolder;}
+div.button a:active{color: none; text-decoration: none;}
+
+div#librarian-button{}
+div#user-button{margin-bottom: 50px;}
+
+
+/* Footer*/
+footer {text-align: center; border-top: 3px double #a3b18a; display: block; padding: 10px; margin-top: 5px; margin-left: auto; margin-right: auto;}
+footer h1{font-family: 'Fredoka One', sans-serif; color: #3a5a40); font-size: 15pt; margin-bottom: 0px;}
+footer p{font-family: 'Covered By Your Grace', sans-serif; font-size: 20pt; margin-top: 0px;}
